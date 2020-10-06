@@ -10,6 +10,9 @@ public class JasperToXls {
     public JasperToXls() {
     }
 
+    // Экспорт шаблона формата Jasper (jrxmlFile)
+    // в файл Excel (xlsFile)
+    // с заполнением данными из переданного источника (dataSource)
     @SuppressWarnings("unchecked")
     public static void exportToXls(String jrxmlFile, String xlsFile, JRDataSource dataSource) throws JRException {
         // Готовим параметры для отчета (заголовок и т.д.)
